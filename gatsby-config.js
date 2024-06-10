@@ -21,7 +21,7 @@ module.exports = {
   siteMetadata: {
     title: `Adesh Singh`,
     description: `Full-Stack Software Developer, Designer, and Student`,
-    siteUrl: `https://adesh-portfolio.netlify.app`,
+    siteUrl: `https://adesh-singh.netlify.app`,
     author: `Adesh Singh`,
     keywords: [
       `adesh singh`,
