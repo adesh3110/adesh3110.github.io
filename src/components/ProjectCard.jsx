@@ -67,13 +67,11 @@ function ProjectsCard(props) {
         >
           <div className="text-white transition-all duration-500 ease-in-out transform group-hover:-rotate-45 group-focus:-rotate-45">
             {project.github ? (
-              <a href={project.github} target="_blank">
-                <Github
-                  className="fill-white opacity-90 transition-all duration-300 ease-in-out transform group-hover:opacity-100 group-focus:opacity-100"
-                  size="1em"
-                  style={iconStyle}
-                />
-              </a>
+              <Github
+                className="fill-white opacity-90 transition-all duration-300 ease-in-out transform group-hover:opacity-100 group-focus:opacity-100"
+                size="1em"
+                style={iconStyle}
+              />
             ) : (
               <Globe
                 className="fill-white transition-all duration-300 ease-in-out transform group-hover:opacity-100 group-focus:opacity-100"

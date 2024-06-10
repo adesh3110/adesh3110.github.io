@@ -73,7 +73,7 @@ const Hero = (props) => (
           Singh<span className="text-accent accent-dot">.</span>
         </Title>
         <Subtitle>
-          <Typed
+          {/* <Typed
             typeSpeed={40}
             backSpeed={30}
             smartBackspace
@@ -86,7 +86,7 @@ const Hero = (props) => (
               '. . .^1000',
               'I like to build stuff<span class="accent-text">.</span>',
             ]}
-          />
+          /> */}
         </Subtitle>
       </div>
       <Code />
