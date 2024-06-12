@@ -46,7 +46,7 @@ module.exports = {
     },
     {
       name: `Resume`,
-      link: `/resume.pdf`,
+      link: `/Adesh-Resume.pdf`,
       external: true,
     },
     // {
